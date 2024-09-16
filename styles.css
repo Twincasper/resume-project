@@ -147,9 +147,11 @@ body {
 }
 
 #section-2 h2 {
-  background-color: #474646;
+  /* Background color slightly darker than main container background color */
+  background-color: #303336;
+  color: #f7f8eb;
   margin-bottom: 2rem;
-  width: 90%;
+  width: 98%;
 }
 
 #section-2 p {
