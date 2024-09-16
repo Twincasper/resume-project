@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #282828;
+  background: url("https://media.istockphoto.com/id/1415065958/vector/colorful-repetitive-pattern-background-of-gummy-candies-in-a-shape-of-bears-made-of-simple.jpg?s=612x612&w=0&k=20&c=PsNYi-rDfEC68fC5fOOqmNwJH51YGOdLFXg77JTnXxo=");
+  color: #f7f8eb;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#main-container {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  background: #36393e;
+}
+
+#section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+#top-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#name-container {
+  display: flex;
+  margin-right: 5.5rem;
+}
+
+#profile {
+  display: flex;
+}
+
+#name-container img {
+  max-width: 180px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+  margin-right: 1rem;
+}
+
+#name-info {
+  margin: auto;
+}
+
+#contact-container {
+  flex: 0 0 30%;
+  margin-left: auto;
+}
+
+#contact-container p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#about-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#section-2 h2 {
+  background-color: #474646;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+#section-2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 1.5rem auto;
+  color: darkgray;
+}
+
+#employment-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90%;
+}
+
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  margin-right: 10px;
+}
+
+aside {
+  width: 35%;
+  margin-left: 20px;
+}
+
+
+aside li {
+  list-style-type: none;
+}
+
+#languages li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#employment-skills h4 {
+  margin-left: 1.7rem;
+  margin-top: 0.2rem;
+}
+
+#employment-skills h3 i {
+  margin-right: 0.5rem;
+}
+
+#programming-skills i {
+  margin-right: 0.2rem;
+}
+
+#programming-skills li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#section-3 h2 {
+  font-size: 1.4rem;
+  margin: 1.5rem auto;
+}
+
+#section-3 h2:first-child {
+  margin-top: 0;
+}
+
+#section-3 p {
+  margin-top: 1.5rem;
+}
+
+.yellow-skill-bar {
+  height: 20px;
+  background-color: #FFD43B;
+  margin-bottom: 5px;
+}
+
+.green-skill-bar {
+  height: 20px;
+  background-color: #4CAF50;
+  margin-bottom: 5px;
+}
+
+.blue-skill-bar {
+  height: 20px;
+  background-color: #008CBA;
+  margin-bottom: 5px;
+}
+
+.yellow-skill-bar, .green-skill-bar, .blue-skill-bar {
+  text-align: right;
+}
+
+#section-3 li {
+  color: darkgray;
+}
