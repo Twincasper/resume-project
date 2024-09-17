@@ -250,3 +250,77 @@ aside li {
 #section-3 li {
   color: darkgray;
 }
+
+
+@media screen and (max-width: 768px) {
+  #section-1 {
+    flex-direction: column;
+  }
+
+  #section-2 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #section-3 {
+    margin-top: 1rem;
+  }
+
+  #employment-skills {
+    flex-direction: column;
+  }
+
+  #programming-skills {
+    flex-direction: column;
+  }
+
+  #languages {
+    flex-direction: column;
+  }
+
+  #employment-skills h4, #programming-skills h4 {
+    margin-left: 0;
+  }
+
+  #employment-skills h3, #programming-skills h3 {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #languages li {
+    margin-bottom: 0.5rem;
+  }
+
+  #section-3 {
+    margin-top: 0;
+  }
+
+  #top-section {
+    flex-direction: column;
+  }
+
+  #name-container {
+    margin-bottom: 1rem;
+  }
+
+  #contact-container {
+    margin-top: 1rem;
+  }
+
+  aside {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .yellow-skill-bar, .green-skill-bar, .blue-skill-bar {
+    max-width: 70vw;
+  }
+
+  .yellow-skill-bar {
+    max-width: 60vw;
+  }
+
+  .green-skill-bar {
+    max-width: 50vw;
+  }
+}
