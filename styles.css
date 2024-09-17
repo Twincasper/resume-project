@@ -208,13 +208,13 @@ aside li {
 }
 
 #programming-skills li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 5px;
   font-size: 14px;
 }
 
 #section-3 h2 {
   font-size: 1.4rem;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
 }
 
 #section-3 h2:first-child {
